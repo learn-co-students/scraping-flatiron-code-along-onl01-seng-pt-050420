@@ -38,7 +38,6 @@ class Scraper
     schedules.each_with_index{|v, i| full_courses[i][:schedule] = v}
     descriptions.each_with_index{|v, i| full_courses[i][:description] = v}
     full_courses.each{|i| Course.new(i)}
-    # binding.pry
   end
 end
 
