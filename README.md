@@ -417,7 +417,7 @@ class and giving that instance the `title`, `schedule` and `description`
 extracted from the XML.
 
 Place a `binding.pry` at the end of the method. Now, run the code in this file
-with `ruby lib/scraper.rb`. When you hit the binding, enter `Course.all` into
+with `exit`. When you hit the binding, enter `Course.all` into
 your terminal and take a look at all the courses we made:
 
 ![Course class example](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-08-20%20at%205.29.51%20PM.png)
